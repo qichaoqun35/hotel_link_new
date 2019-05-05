@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_tip">To use this app, you need to turn on your storage and location permissions. If you don't have this permission turned on, go to Settings - App Management and find our app and open the appropriate permissions settings.</string>
+    <string name="sure">Sure</string>
+    <string name="tip">Tip</string>
+    <string name="search">Search</string>
+    <string name="order">Order</string>
+    <string name="me">Me</string>
+    <string name="empty">Loading data is empty</string>
+    <string name="error">Data loading error</string>
+    <string name="location_error">Failed to get location information</string>
+    <string name="is_early">Whether breakfast is included</string>
+    <string name="passenger_infor">Guest details</string>
+    <string name="mr.">Mr</string>
+    <string name="miss.">Ms</string>
+    <string name="master">Child</string>
+    <string name="kids">Child</string>
+    <string name="room_number">number of rooms</string>
+    <string name="ok">Finish</string>
+    <string name="children_pre">Children/room</string>
+    <string name="young_pre">Junior/room</string>
+    <string name="adult_pre">Adult/room</string>
+    <string name="room_amount">Rooms</string>
+    <string name="children">Child</string>
+    <string name="adult">Adult</string>
+    <string name="room">Room</string>
+    <string name="night">Night</string>
+    <string name="total">Total</string>
+    <string name="search_in_all">Search</string>
+    <string name="my_order">My Orders</string>
+    <string name="no_content">No content</string>
+    <string name="my_acount">My account</string>
+    <string name="login">Login</string>
+    <string name="develop_panel">Development panel</string>
+    <string name="your_setting">Your Settings</string>
+    <string name="language">Current language</string>
+    <string name="money">Current currency</string>
+    <string name="danwei">Unit</string>
+    <string name="language_setting">Language Setting</string>
+    <string name="language_tip">This language has already been set and does not need to be reset</string>
+    <string name="language_infor">Are you sure you set the language to the selected language?</string>
+    <string name="current_location">Location</string>
+</resources>

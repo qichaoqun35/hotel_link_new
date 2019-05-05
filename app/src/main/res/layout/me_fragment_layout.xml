@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color"
+        android:theme="@style/toobar_back_color"
+        app:titleTextAppearance="@style/Toolbar.TitleText">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/me"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/my_acount"
+        android:textSize="18sp"/>
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/search_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/white"
+        app:sLeftIconRes="@drawable/homepage"
+        app:sLeftIconWidth="30dp"
+        app:sLeftIconHeight="30dp"
+        app:sLeftTextString="@string/search"
+        app:sLeftTextSize="16sp"/>
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/login_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        app:sLeftIconRes="@drawable/me"
+        app:sLeftIconWidth="30dp"
+        app:sLeftIconHeight="30dp"
+        app:sLeftTextString="@string/login"
+        app:sLeftTextSize="16sp"/>
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/develop_panel_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        app:sLeftIconRes="@drawable/setup"
+        app:sLeftIconWidth="30dp"
+        app:sLeftIconHeight="30dp"
+        app:sLeftTextString="@string/develop_panel"
+        app:sLeftTextSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/your_setting"
+        android:textSize="18sp"/>
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/language_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        app:sLeftIconRes="@drawable/stealth"
+        app:sLeftIconWidth="30dp"
+        app:sLeftIconHeight="30dp"
+        app:sLeftTextString="@string/language"
+        app:sRightIconRes="@drawable/enter"
+        app:sRightIconWidth="22dp"
+        app:sRightIconHeight="22dp"
+        app:sLeftTextSize="16sp"/>
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/money_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        app:sLeftIconRes="@drawable/flip"
+        app:sLeftIconWidth="30dp"
+        app:sLeftIconHeight="30dp"
+        app:sLeftTextString="@string/money"
+        app:sRightIconRes="@drawable/enter"
+        app:sRightIconWidth="22dp"
+        app:sRightIconHeight="22dp"
+        app:sLeftTextSize="16sp"/>
+
+    <com.allen.library.SuperTextView
+        android:id="@+id/danwei_me"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        app:sLeftIconRes="@drawable/supply"
+        app:sLeftIconWidth="30dp"
+        app:sLeftIconHeight="30dp"
+        app:sLeftTextString="@string/danwei"
+        app:sRightIconRes="@drawable/enter"
+        app:sRightIconWidth="22dp"
+        app:sRightIconHeight="22dp"
+        app:sLeftTextSize="16sp"/>
+
+</LinearLayout>

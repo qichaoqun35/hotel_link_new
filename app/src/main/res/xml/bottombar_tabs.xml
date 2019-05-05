@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/search"
+        id="@+id/search"
+        title="@string/search" />
+    <tab
+        icon="@drawable/order"
+        id="@+id/order"
+        title="@string/order" />
+    <tab
+        icon="@drawable/me"
+        id="@+id/me"
+        title="@string/me" />
+</tabs>
